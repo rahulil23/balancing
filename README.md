@@ -2,22 +2,13 @@ Tentang repositori ini
 ---
 Load Balancing dalam Komputasi Jaringan
 
-Pada file `Readme.md` ini *submission* **harus** memiliki bagian/struktur seperti berikut:
-1. Deskripsi repositori
-2. Direktori `codes`
-3. Direktori `documentation`
-4. Informasi anggota kelompok
-
-:warning: **Seluruh** Section di atas bersifat pengantar dan *hendaknya* dihapus ketika melakukan *submission* yang sebenarnya. 
-
-:warning: *Edit* seluruh Section di bawah ini sesuai kebutuhan
 
 # Deskripsi repositori
- > Berisi penjelasan struktur repositori, bersifat seperti daftar isi
+
 
 Repositori ini merupakan tugas mandiri matakuliah Komputasi berbasis Jaringan dengan tugas implementasi sederhana dari konsep load balancing menggunakan Python socket programming. Proyek ini bertujuan untuk memahami dan menerapkan teknik load balancing dalam mendistribusikan request client ke beberapa server worker melalui server broker.
 
- > Lampirkan flowchart sederhana di sini. Flowchart menjelaskan secara garis besar: input-process-output
+
 
 ![flowchart](images/balancing.jpeg)
 
@@ -35,4 +26,4 @@ Repositori ini merupakan tugas mandiri matakuliah Komputasi berbasis Jaringan de
 Nama kelompok:
 
 **Anggota**
-1. Muhammad Rahulil  (25001905009)
+1. Muhammad Rahulil  (24051905009)

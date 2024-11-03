@@ -10,7 +10,7 @@ Repositori ini merupakan tugas mandiri matakuliah Komputasi berbasis Jaringan de
 
 
 
-![flowchart](images/balancing.jpeg)
+![flowchart](images/balancing.jpg)
 
 ## Direktori `codes`:
 1. `client_server.py` - *file untuk melakukan request ke server*

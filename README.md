@@ -1,6 +1,6 @@
 Tentang repositori ini
 ---
-Load Balancing dalam Komputasi Jaringan
+Miniatur Load Balancing
 
 
 # Deskripsi repositori

@@ -1,6 +1,6 @@
 Tentang repositori ini
 ---
-Repositori ini ditujukan untuk packaging pengumpulan tugas pemrograman yang berisi: (1) source code, (2) berkas-berkas dokumentasi, dan (3) berkas-berkas lain pendukung (seperti multimedia, referensi, maupun sumber-sumber referensi).
+Load Balancing dalam Komputasi Jaringan
 
 Pada file `Readme.md` ini *submission* **harus** memiliki bagian/struktur seperti berikut:
 1. Deskripsi repositori
@@ -15,28 +15,24 @@ Pada file `Readme.md` ini *submission* **harus** memiliki bagian/struktur sepert
 # Deskripsi repositori
  > Berisi penjelasan struktur repositori, bersifat seperti daftar isi
 
-*Penjelasan singkat repositori ini, ditujukan untuk matakuliah apa, project-nya akan menyelesaikan masalah apa*
+Repositori ini merupakan tugas mandiri matakuliah Komputasi berbasis Jaringan dengan tugas implementasi sederhana dari konsep load balancing menggunakan Python socket programming. Proyek ini bertujuan untuk memahami dan menerapkan teknik load balancing dalam mendistribusikan request client ke beberapa server worker melalui server broker.
 
  > Lampirkan flowchart sederhana di sini. Flowchart menjelaskan secara garis besar: input-process-output
 
-![flowchart](images/dummy-img.png)
+![flowchart](images/balancing.jpeg)
 
 ## Direktori `codes`:
-1. `file1.py` - *penjelasan kegunaan file1.py*
-2. `file2.py` - *penjelasan kegunaan file2.py*
-3. ...
+1. `client_server.py` - *file untuk melakukan request ke server*
+2. `broker_server.py` - *merupakan file yang berfungsi menerima request dari client kemudian di distribusikan ke worker *
+3. `worker.py` - *merupakan file yang berfungsi untuk menerima request dari broker dan memprosesnya*
 
 ## Direktori `documentation`:
-1. `file1.pdf` - *penjelasan, overview file1.pdf*
-2. `file2.pdf` - *penjelasan, overview file2.pdf*
-3. `file3.jpg` - *penjelasan, overview gambar file3.jpg*
+1. `panduan.pdf` - *merupakan file penjelasan dari sistem balancing prose dan flowchart cara kerja*
 
 # Informasi anggota kelompok*
-> Sesuaikan dengan penugasan, jika berkelompok berikan detil anggota kelompok
+> tugas ini mandiri
 
-Nama kelompok: Kelompok 1
+Nama kelompok:
 
 **Anggota**
-1. Nama mahasiswa 1 (NIM 1)
-2. Nama mahasiswa 2 (NIM 2)
-3. Nama mahasiswa 3 (NIM 3)
+1. Muhammad Rahulil  (25001905009)
